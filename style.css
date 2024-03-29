@@ -1,0 +1,99 @@
+body{  
+    background-color:rgb(241, 234, 241)  ;
+    padding: 80px;
+}
+
+form{
+    background-color:white;
+    padding: 70px;
+    
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(49, 48, 48);
+    color: white;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+}
+#head{
+    text-align: center;
+    background-image: url(images/Home.png);
+    background-size: cover;
+    height: 500px;
+    width: 80%;
+    color: white;
+    margin-left: 10%;
+    
+    
+    
+    
+}
+#button{
+   background-color: rgb(148, 94, 24);
+   color: white;
+   padding: 3px;
+
+}
+.head1{
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.grid{
+    border-color: rgb(148, 94, 24);
+    padding: 20px;
+    background-color: rgb(247, 245, 243);
+}
+.product{
+    text-align: center;
+}
+.assets{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sofa{
+    display: flex;
+    justify-content: space-around;
+
+}
+.brown{
+    background-color: rgb(212, 197, 178);
+}
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(49, 48, 48);
+    color: white;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width:768px){
+    body{
+        width: 80%;
+    }
+    #footer{
+        flex-wrap: wrap;
+        
+        background-color: rgb(49, 48, 48);
+        color: white;
+    }
+    .assets{
+        flex-wrap: wrap;
+    }
+    .sofa{
+        flex-wrap: wrap;
+    }
+    #navbar{
+        flex-wrap: wrap;
+    }
+    
+}
